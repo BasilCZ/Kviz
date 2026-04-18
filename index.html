@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="cs">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div id="quiz">
+      <button type="button" onclick="previousQuestion()">
+        Předchozí otázka
+      </button>
+      <button type="button" onclick="nextQuestion()">Další otázka</button>
+
+      <p id="question">Otázka</p>
+      <div id="answers"></div>
+      <button type="button" onclick="send()">Odeslat</button>
+    </div>
+
+    <div id="result"></div>
+  </body>
+</html>
